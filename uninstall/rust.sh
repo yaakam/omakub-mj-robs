@@ -1,1 +1,1 @@
-rustup self uninstall -y
+yay -Rns --noconfirm rust
