@@ -41,4 +41,8 @@ keybinds {
         bind "o" { SwitchToMode "Session"; }
         bind "q" { Quit; }
     }
+
+    scroll {
+        bind "Enter" { Copy; SwitchToMode "Normal"; }
+    }
 }
