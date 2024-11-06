@@ -3,6 +3,9 @@
 # Install Docker engine and standard plugins
 yay -S --needed docker docker-compose --noconfirm
 
+# Create docker group
+sudo groupadd docker
+
 # Give this user privileged Docker access
 sudo usermod -aG docker ${USER}
 
