@@ -8,7 +8,7 @@ ascii_art='   ____  __  ______    __ ____  ______     __  ___    __
 '
 
 echo -e "$ascii_art"
-echo "=> Omakub is for fresh Manjaro GNOME 24 or newer installations only!"
+echo "=> Omakub is for fresh Manjaro GNOME 24 minimal or newer installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 command -v yay >/dev/null 2>&1 || sudo pacman -S --noconfirm yay git base-devel
