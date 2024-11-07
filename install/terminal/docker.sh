@@ -6,6 +6,8 @@ yay -S --needed docker docker-compose --noconfirm
 # Give this user privileged Docker access
 sudo usermod -aG docker ${USER}
 
+su -l $USER
+
 # Limit log size to avoid running out of disk
 sudo mkdir -p /etc/docker
 if [ -f /etc/docker/daemon.json ]; then
